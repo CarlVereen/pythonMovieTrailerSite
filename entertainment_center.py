@@ -1,6 +1,7 @@
 import fresh_tomatoes
 import media
                      
+#creation of movie instances with their content
 ameadus = media.Movie("Amadeus",
                       "Mozart's short life, Did Salieri bring it to an end?",
                       "http://upload.wikimedia.org/wikipedia/en/2/2f/Amadeusmov.jpg",
@@ -50,5 +51,8 @@ kungfu_hustle = media.Movie("Kung Fu Hustle",
                             "2004",
                             "R")
 
+#creation of an array for use within the fresh_tomatoes page generator
 movies = [ameadus, big_hero_six, star_wars_new_hope, fearless, ong_bak, kungfu_hustle]
+
+#call fresh_tomatoes to create the web page using the array
 fresh_tomatoes.open_movies_page(movies)
