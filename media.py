@@ -19,7 +19,7 @@ class Movie(Video):
         self.release_date = release_date
         self.movie_rating = movie_rating
 
-#define a class that has the specific conten for TV shows and inherits basic of Video class
+#define a class that has the specific conten for TV shows and inherits basic of Video class -- currently not used but available for future updates
 class TV(Video):
     def __init__(self, video_title, video_storyline, poster_image, trailer_youtube, broadcast_station_name, pilot_date, number_of_seasons, tv_rating) :
         Video.__init__(self, video_title, video_storyline,  poster_image, trailer_youtube)
