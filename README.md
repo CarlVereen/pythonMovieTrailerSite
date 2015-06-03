@@ -1,12 +1,8 @@
-# pythonMovieTrailerSite
-a movie trailer site written in python
-
 Welcome to my movie trailer website written in Python!
 
 This program displays my favorite movies with a poster image along with the rating, director and release date.
 Additionally if the user would like they can click on an image to see a trailer about the movie hosted on youtube.
 
-please feel free to download to your computer
 
 To run this program on Windows:
 
